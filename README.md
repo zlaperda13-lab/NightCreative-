@@ -1,9 +1,16 @@
-# Night Creative website
-- `modern/` — современная кибернетическая версия.
-- `retro-2000s/` — ретро-версия в духе раннего интернета.
-- `index.html` — выбор версии.
+# Night Creative redesign
 
-## Публикация на GitHub Pages
-Загрузите содержимое этой папки в корень репозитория. Затем откройте Settings → Pages → Build and deployment: Deploy from a branch → `main` → `/ (root)` → Save.
+Responsive single-page landing site.
 
-Контакты VK и Telegram подключены. Email и отдельная ссылка портфолио не добавлены, так как не предоставлены. Портфолио честно обозначено как находящееся в разработке.
+- `index.html` page structure
+- `style.css` responsive design
+- `script.js` mobile navigation
+- `assets/logo.svg` vector logo concept
+- `assets/hero-workspace.jpg` artwork crop from the approved concept
+
+Contacts: https://vk.ru/nightcreative · https://t.me/r00t_gh0st · https://t.me/Night_Creative
+
+Portfolio tiles are illustrative design concepts, not claimed client work.
+
+## Publish
+Copy the files into the repository root, then commit and push to `main`. In GitHub Settings → Pages select `Deploy from a branch`, branch `main`, folder `/(root)`.
