@@ -1,16 +1,18 @@
-# Night Creative redesign
+# Night Creative site
 
-Responsive single-page landing site.
+This folder is a complete static site for GitHub Pages. It uses only local files and browser-native HTML, CSS, and JavaScript.
 
-- `index.html` page structure
-- `style.css` responsive design
-- `script.js` mobile navigation
-- `assets/logo.svg` vector logo concept
-- `assets/hero-workspace.jpg` artwork crop from the approved concept
+## Add a portfolio entry
 
-Contacts: https://vk.ru/nightcreative · https://t.me/r00t_gh0st · https://t.me/Night_Creative
+1. Add the image files to `assets/`.
+2. Add an object to the `window.NC_PORTFOLIO` list in `portfolio.js`.
+3. Set `category` to `cards`, `fashion`, `concept`, or `content` so the card appears under the matching filter.
+4. Add each gallery image to the project's `images` list. Include a short, descriptive `alt` for every image.
 
-Portfolio tiles are illustrative design concepts, not claimed client work.
+The portfolio card and image gallery are generated from `portfolio.js`; the layout and price list are in `index.html` and `style.css`.
 
-## Publish
-Copy the files into the repository root, then commit and push to `main`. In GitHub Settings → Pages select `Deploy from a branch`, branch `main`, folder `/(root)`.
+## Publish with GitHub Pages
+
+Copy the contents of this folder into the root of the `NightCreative-` repository. In GitHub, open **Settings → Pages** and choose **Deploy from a branch**, then select the `main` branch and `/(root)` folder. The site uses relative paths, so it works at the repository's `/NightCreative-/` Pages address.
+
+The files here are prepared locally. Publishing requires uploading them to GitHub and selecting the Pages source.
